@@ -16,3 +16,36 @@ aside {
   width: 80%;
 }
 
+@media screen and (max-width: 700px) {
+  .container {
+    flex-direction: column;
+  }
+
+  aside {
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .logo {
+    width: 20%;
+    display: inline-flex;
+  }
+
+  .nav {
+    display: inline-flex;
+    flex-direction: row;
+  }
+
+  .nav li {
+    display: inline-flex;
+  }
+
+  .tweet, .friends {
+    display: none;
+  }
+}
+
